@@ -32,11 +32,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :http => "https://storage.zego.im/downloads/ZegoLiveRoom-iOS.zip"}
-  # spec.source         = { :http => "https://download.agora.io/sdk/release/AgoraRtcEngine_iOS-2.8.0.zip"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.vendored_frameworks = "release/iphoneos_simulator/ZegoLiveRoom.framework"
-  # spec.vendored_frameworks = "AgoraRtcEngineKit.framework"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
@@ -44,8 +42,5 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   spec.requires_arc = true
-
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
 
 end
