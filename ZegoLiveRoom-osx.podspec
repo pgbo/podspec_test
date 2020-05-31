@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = "zegodev"
 
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :osx, "10.10"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
