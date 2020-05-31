@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "ZegoLiveRoom-mac"
+  spec.name         = "ZegoLiveRoom-osx"
   spec.version      = "0.0.1"
   spec.summary      = "Zego iOS A/V Live SDK"
 
-  spec.description  = "iOS library for Zego A/V communication, broadcasting and data channel service."
+  spec.description  = "osx library for Zego A/V communication, broadcasting and data channel service."
 
   spec.homepage     = "https://doc.zego.im/download/sdk"
 
